@@ -1,0 +1,6 @@
+The main difference between position absolute and position relatives are -
+  In position-relative it is relative to its previous position. But In absolute it is relative to
+  its parent div.
+
+  In relative if we set top 0 then it will be in the same top position as it was previously. But in absolute
+  if we set top 0,  its top will overlap with its parent div.

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>example</title>
+    <style>
+        .color{
+            width: 100vw;
+            height: 60vh;
+            background-color: blanchedalmond;
+        }
+        .green {
+            width: 200px;
+            height: 200px;
+            background-color: green;
+            position: absolute;
+            z-index: 1;
+        }
+
+        .yellow {
+            width: 200px;
+            height: 200px;
+            background-color: yellow;
+            top: 100px;
+            position: absolute;
+        }
+
+        h2 {
+            position: absolute;
+            z-index: 5;
+            top: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="color">
+        <div class="green">
+        </div>
+        <div class="yellow">
+        </div>
+    </div>
+
+    <h2>Here green is showing over yellow (Green has more Z index). And this text is showing over green bcz this text has more z index</h2>
+
+
+</body>
+
+</html>
